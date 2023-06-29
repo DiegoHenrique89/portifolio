@@ -191,16 +191,17 @@ header input{
 }
 .contato{
     padding: 0;
-    list-style: none;
+    list-style: inside;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 .contato li{
-    width: 50px;
-    height: 50px;
-    margin: 20px;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
     box-shadow: var(--box-shadow);
     display: flex;
     justify-content: center;
